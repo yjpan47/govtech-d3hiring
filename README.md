@@ -26,7 +26,7 @@ https://github.com/yjpan47/govtech-d3hiring.git
 npm install
 ```
 
-3. Configuration the database URL in `./db.js`. If you are running MySQL on local machine, Sequelize engine will most likely be initiated like this:
+3. Configuration the database URL in `./db.js` to a database of your choice. If you are running MySQL on local machine, Sequelize engine will most likely be initiated like this:
 ```
 const sequelize = new Sequelize({database}, {user}, {password}, {
      dialect: 'mysql',
