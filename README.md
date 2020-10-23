@@ -28,7 +28,7 @@ npm install
 
 3. Configuration the database URL in `./db.js`. If you are running MySQL on local machine, Sequelize engine will most likely be initiated like this:
 ```
-const sequelize = new Sequelize('db', 'root', '', {
+const sequelize = new Sequelize({database}, {user}, {password}, {
      dialect: 'mysql',
      host: 'localhost'
 });
